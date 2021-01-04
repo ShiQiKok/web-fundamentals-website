@@ -1,0 +1,42 @@
+.image{background-size: cover;
+    height: 650px;
+    background: url("../images/caregiver.png") no-repeat center;}
+
+
+.sub_section{background-color: #79b2da;
+    padding: 30px 30px 10px;
+    margin: 50px 15%;}
+
+h3{color: white;
+    margin: 10px;
+    font-size: 30px;}
+
+.sub_section > p{font-family: quicksans;}
+
+.sub_section hr{width:150px;
+        color: white;
+        }
+
+.to-do{text-align: left;
+    font-family: quicksans;
+    padding-left:10% ;}
+
+.flex_container{display: flex;
+    margin: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+        }
+
+.flex_container img{width: 300px;
+                    height: 200px;
+                    opacity: 0.8;
+                    border-radius: 5px;
+                    
+                    }
+
+.flex_container div{font-size: 40px;
+
+    padding:10px;
+        }
+

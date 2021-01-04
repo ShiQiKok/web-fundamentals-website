@@ -1,0 +1,30 @@
+.image{background-size: cover;
+    height: 650px;
+    background: url("../images/awareness1.png") no-repeat center;}
+
+blockquote{background-color: #FFCC4A;
+        display: inline-block;
+        padding: 20px;
+        border-radius: 30px;
+        margin-bottom: 30px;
+    }
+
+.flex_container{display: flex;
+        font-family: quicksans;
+        padding:30px;
+        background-color: #79b2da;
+        margin: 50px 20%;
+        box-shadow: 5px 10px 5px #aeaeae;}
+
+.order{font-size: 30px;
+        color: white;
+        padding-right: 30px;
+        border-right: 5px solid white;}
+
+.order + div{padding-left: 30px;}
+
+@media screen and (max-width:1045px){
+        .flex_container{
+                margin: 50px 5%;
+        }
+}

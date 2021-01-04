@@ -1,0 +1,47 @@
+.image{background-size: cover;
+    height: 650px;
+    background: url("../images/treatment.png") no-repeat center;
+    }
+
+.flexcontainer{display: flex;
+        flex-wrap: wrap;
+                justify-content: space-around;
+                margin: 50px auto;
+                }
+
+.flexitem{width: 300px;
+        margin: 20px 5% 0;}
+
+
+
+.round_border{border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        color: white;
+        background-color:#003860 ;}
+
+.round_border > p{margin: auto;
+        font-family:opensans_b;
+        font-size: 25px;
+        padding-top: 40%;}
+
+.desc{background-color:#003860 ;
+        font-family: quicksans;
+        color: white;
+        padding: 10px 20px;
+        height: 200px;
+        }
+
+.title{background-color:#003860 ;
+        color: white;
+        font-size: 25px;
+        font-family: opensans_b;
+        font-weight: bolder;
+        padding: 20px;
+        display: inline-block;
+        margin: 20px auto 40px;}
+
+.flexitem:hover{margin-top:-10px ;
+        border-bottom: 5px solid #003860;
+        transition: 1s;}

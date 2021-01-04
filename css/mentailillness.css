@@ -1,0 +1,71 @@
+
+.image{background-size: cover;
+    height: 650px;
+    background: url("../images/aboutmentalillness.png") no-repeat center;}
+
+
+
+.flexcontainer{display: flex;
+                flex-direction: column;
+                background-color: #f0f7fa;
+                font-family: quicksans;
+                }
+
+.flexitem1{display: flex;
+            background-color: #79b2da;
+            padding: 30px 30px 10px;
+            margin: 50px 10%;}
+
+.flexitem1 .topic{border-right: 5px solid white;
+                color: white;
+                padding-right: 30px;
+                font-family: opensans_b;
+                
+            }
+.topic + div{padding-left: 20px;}
+
+.flexitem2{display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+            }
+.flexitem2 .item{width: 300px;
+                margin: 20px 5%;
+            }
+.flexitem2 .desc{background-color: #003860;
+                    padding: 10px;
+                    color: white;}
+
+.round_border{border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                margin: auto;
+                color: white;
+                background-color:#003860 ;}
+
+.round_border p{margin: auto;
+    font-size: 30px;
+        padding-top: 30%;
+        font-family: opensans_b;}
+
+.border_button{display: block;
+            color: white;
+            border: 2px solid white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 20px 30% 10px;
+            transition: 0.3s;
+    }
+
+.border_button:hover {background-color: white;
+                    color: #79b2da;}
+
+
+@media screen and (max-width:1104px){
+    .flexitem1{
+        flex-direction: column;
+    }
+    .flexitem1 .topic{
+        border: none;
+        border-bottom: 5px solid white;
+    }
+}

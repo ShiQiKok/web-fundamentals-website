@@ -1,0 +1,22 @@
+#logo_background{
+    background-size: cover;
+    background: url(../images/line.svg) no-repeat center;
+    height: 150px;
+    border-bottom: 1px solid #619bc5;
+}
+
+#logo_background > img{
+    background-color: white;
+    padding-top:30px ;}
+
+.meaning{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.section{
+    background-color: #add8f7;
+    margin: 0px 50px;
+    padding: 30px;
+    font-family: quicksans;
+}

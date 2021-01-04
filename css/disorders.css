@@ -1,0 +1,83 @@
+body{background-color:#f1f3f5;;}
+header{background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+            display: block;
+            padding: 15px;
+            font-size: 40px;
+        }
+
+.details{display:flex;
+    justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 0px;
+            
+            }
+            
+
+.details > div{width: 500px;
+
+                margin: 5% 2% 0;
+
+            }
+.details > div dt{
+    font-family: opensans_b;
+    font-size: 30px;
+    border-bottom: 5px solid #003860;
+    color: #003860;
+    padding: 5px;
+    display: inline-block;
+
+    
+}
+
+.details > div dd{
+    font-family: quicksans;
+    background-color:#add8f7;
+    margin: -20px 10px 0px;
+    padding: 30px 10px 10px;
+    border-radius: 5px;
+
+}
+
+.flexbox{display: flex;
+    margin-top: 2%;
+    justify-content: center;}
+
+.title{
+    font-family: opensans_b;
+    font-size: 30px;
+    border-bottom: 5px solid white;
+    padding: 5px;
+    display: inline-block;
+    margin: 0px;
+}
+
+
+.flexbox  ul{
+    background-color: #FFCC4A;
+    
+    padding: 30px;
+    margin:-20px 10px 10px;
+    border-radius: 5px;
+    }
+
+.flexbox  ul > li{
+    font-family: quicksans;
+    text-align: left;
+    margin: 0px;
+}
+
+.bold{
+    font-size: 25px;
+    font-family:opensans_b ;
+    margin: 10px;
+}
+
+.references{text-align: left;
+    margin: 30px 20px;
+    display: block;
+    }
+.references > h5{margin: 0px;}
+
+.references > ul{
+    margin: 5px 0 20px;
+    padding: 0px;}
